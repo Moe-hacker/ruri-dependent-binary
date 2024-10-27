@@ -40,7 +40,7 @@ jobs:
           arch: aarch64
           distro: bookworm
           run: |
-           bash build-file-curl.sh
+           sudo bash build-file-curl.sh
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
