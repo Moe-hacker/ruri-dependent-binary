@@ -6,7 +6,7 @@ apt install -y \
               libseccomp-dev \
               libcap-dev \
               libc6-dev \
-              binutils git build-essential zlib1g-dev liblzma-dev libssl-dev  automake  libtool libtool-bin bison flex gettext autoconf  autopoint libsqlite3-0 sqlite3 libsqlite3-dev libpsl-dev wget texi2html texinfo dh-package-notes docbook-xml docbook-xsl gettext itstool libacl1-dev libattr1-dev libaudit-dev libbsd-dev libcrypt-dev libltdl-dev libpam0g-dev libselinux-dev libsemanage-dev libxml2-utils pkgconf quilt systemd-dev xsltproc musl-tools
+              binutils git build-essential zlib1g-dev liblzma-dev libssl-dev  automake  libtool libtool-bin bison flex gettext autoconf  autopoint libsqlite3-0 sqlite3 libsqlite3-dev libpsl-dev wget texi2html texinfo dh-package-notes docbook-xml docbook-xsl gettext itstool libacl1-dev libattr1-dev libaudit-dev libbsd-dev libcrypt-dev libltdl-dev libpam0g-dev libselinux-dev libsemanage-dev libxml2-utils pkgconf quilt xsltproc musl-tools
 git clone https://github.com/file/file
 cd file
 autoreconf -vif
